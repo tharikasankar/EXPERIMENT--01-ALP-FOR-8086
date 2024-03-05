@@ -76,27 +76,75 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+## Addition of 8 bit ALP :
+```
+org 100h
 
-## Addition  of 8 bit ALP 
+mov ax,0a123h;
 
+mov bx,0b456h;
 
+add ax,bx;
 
-## Output  
- 
+mov [1234h],ax;
+
+ret
+```
+## Output:
+![image](https://github.com/tharikasankar/EXPERIMENT--01-ALP-FOR-8086/assets/119475507/813270b7-f7bb-4964-a8c8-35f981004b5a)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+ ```
+org 100h
 
+mov ax,0d101h;
+
+mov bx,0c789h;
+
+sub ax,bx;
+
+mov [5678h],ax;
+
+ret
+```
+## Output 
+![image](https://github.com/tharikasankar/EXPERIMENT--01-ALP-FOR-8086/assets/119475507/bdcc878b-31fa-4947-b090-b95a79af8954)
+
+## Multiplication alp 
+```
+org 100h
+
+mov ax,0e112h;
+
+mov bx,0f131h;
+
+mul bx;
+
+mov [9101h],ax;
+
+ret
+```
+ ## Output  
+![image](https://github.com/tharikasankar/EXPERIMENT--01-ALP-FOR-8086/assets/119475507/aa74b452-f073-40cc-87a8-71f7da9273d1)
 
 ## Division alp 
+```
+org 100h
 
+mov ax,0b161h;
+
+mov bx,0a415h;
+
+div bx;
+
+mov [1121h],ax;
+
+ret
+```
 ## Output  
-
-
+![image](https://github.com/tharikasankar/EXPERIMENT--01-ALP-FOR-8086/assets/119475507/f80a7b34-7b21-4ffb-a13d-0da30e68af36)
 ## Result :
- 
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed. 
 
 
 
