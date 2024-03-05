@@ -1,7 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : Tharika S
-Roll no : 212222230159
-Date of experiment : 29/02/24
+
+**Name : Tharika S** 
+
+**Roll no : 212222230159**
+
+**Date of experiment : 29/02/24**
 
 
 
